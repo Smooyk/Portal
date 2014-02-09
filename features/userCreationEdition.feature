@@ -1,8 +1,5 @@
 Feature: New user creation and edition
 
-Background:
-	When I'm on home page of Portal
-
 Scenario:
 	When I log in to Portal as user with permissions to Requisitions module
 	And Then navigate through Dashboard to User Setups
