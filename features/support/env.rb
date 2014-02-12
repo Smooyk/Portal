@@ -4,5 +4,5 @@ require 'faker'
 require "data_magic"
 
 World(PageObject::PageFactory)
-PageObject.add_framework(:ext,ExtJS_module)
-PageObject.javascript_framework = :ext
+#PageObject.add_framework(:ext,"ExtJS_module")
+#PageObject.javascript_framework = :ext
